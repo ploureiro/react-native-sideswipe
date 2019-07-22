@@ -126,6 +126,8 @@ export default class SideSwipe extends Component<CarouselProps, State> {
 							animatedValue: animatedValue,
 						})
 					}
+					initialNumToRender={1}
+					removeClippedSubviews={true}
 				/>
 			</View>
 		);
