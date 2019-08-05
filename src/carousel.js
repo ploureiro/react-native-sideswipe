@@ -29,7 +29,7 @@ export default class SideSwipe extends Component<CarouselProps, State> {
 		onGestureRelease: () => {},
 		onIndexChange: () => {},
 		renderItem: () => null,
-		shouldCapture: ({ dx, dy }: GestureState) => dx * dx > 500 && dy * dy <= 100,
+		shouldCapture: ({ dx, dy }: GestureState) => dx * dx > 100 && dy * dy <= 100,
 		shouldRelease: () => false,
 		threshold: 0,
 		useVelocityForIndex: true,
